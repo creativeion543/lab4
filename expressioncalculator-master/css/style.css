@@ -1,0 +1,73 @@
+.screen{
+    border-left: 30px solid #ccc;
+    border-right: 30px solid #ccc;
+    border-top: 10px solid #ccc;
+    border-bottom: 10px solid #ccc;
+    width: 242px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: -2px;
+    margin-top: px;
+    color: black;
+    font-size: 1rem;
+    line-height: 4.5rem;
+    overflow: hidden;
+    padding-right: 40px;
+}
+
+.screen-border{
+    width: 327px;
+    background-color: #b0b78e!important;
+    border: 8px solid #000;
+    margin: 5px auto;
+    line-height: 2;
+    text-align:right;
+    padding: 0 10px 0 0;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.key{
+    background-color: #404133;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+}
+.formatButton button:nth-of-type(5){
+    margin-left: 50px;
+}
+
+.formatButton button:nth-of-type(4){
+    color: red;
+}
+
+.formatButton button{
+    width: 50px;
+}
+.flex-calc{
+    text-align: center;
+    width: 100%;
+}
+.formatButtonTop button{
+    width: 80px;
+    margin-bottom: 30px;
+}
+#button-mod,
+#btn{
+    color: red;
+}
+#button-M\+,
+#button-MR,
+#button-MC{
+    color: blue;
+}
+.formatButtonTop button:nth-of-type(3){
+    color: red;
+}
+.formatButtonTop button:nth-of-type(4){
+    color: red;
+}
